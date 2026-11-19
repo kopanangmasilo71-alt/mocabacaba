@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+    <!-- Outer Square -->
+    <path
+        android:strokeColor="#57E3FA"
+        android:strokeWidth="10"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M20,20 H280 V280 H20 Z" />
+
+    <!-- Middle Square -->
+    <path
+        android:strokeColor="#57E3FA"
+        android:strokeWidth="10"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,60 H240 V240 H60 Z" />
+
+    <!-- Inner Square -->
+    <path
+        android:strokeColor="#57E3FA"
+        android:strokeWidth="10"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M110,110 H190 V190 H110 Z" />
+
+    <!-- Center Lines -->
+    <path
+        android:strokeColor="#57E3FA"
+        android:strokeWidth="10"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M150,20 V280 M20,150 H280" />
+
+    <!-- Corner Connectors: Outer to Middle ONLY -->
+    <path
+        android:strokeColor="#57E3FA"
+        android:strokeWidth="10"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M20,20 L60,60
+                          M280,20 L240,60
+                          M20,280 L60,240
+                          M280,280 L240,240" />
+
+</vector>

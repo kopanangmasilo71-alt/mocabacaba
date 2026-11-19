@@ -1,0 +1,19 @@
+<resources>
+    <declare-styleable name="GamePanel">
+        <attr name="exampleString" format="string" />
+        <attr name="exampleDimension" format="dimension" />
+        <attr name="exampleColor" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+        
+        <!-- RabbitPanel1 Background Style -->
+        <attr name="boardGradientCenterColor" format="color" />
+        <attr name="boardGradientEdgeColor" format="color" />
+        <attr name="woodGrainColor" format="color" />
+
+        <!-- Animation/Highlight Effects -->
+        <attr name="clickHighlightColor" format="color" />
+        <attr name="validMoveHighlightColor" format="color" />
+        <attr name="clickHighlightGlowRadius" format="float" />
+        <attr name="validMoveHighlightGlowRadius" format="float" />
+    </declare-styleable>
+</resources>

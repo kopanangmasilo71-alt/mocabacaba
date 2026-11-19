@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_drawable"
+    android:padding="13dp">
+
+    <!-- Watermark Icon -->
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="100dp"
+        android:alpha="0.15"
+        android:contentDescription="i"
+        android:rotation="10"
+        android:src="@drawable/ic_player1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:tint="@android:color/white" />
+
+    <!-- Info Icon -->
+    <ImageView
+        android:id="@+id/btn_info_normal"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:contentDescription="i"
+        android:src="@drawable/baseline_info_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#D0D0D0" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Local PvP"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/btn_info_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Content Row -->
+    <LinearLayout
+        android:id="@+id/content_row"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@id/btn_info_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_normal">
+
+        <!-- Main Icon -->
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/so" />
+
+        <!-- Description -->
+        <com.masilo.morabarabacollection.RainbowTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Challenge a friend on this device."
+            android:textColor="#E0E0E0"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <!-- Rating -->
+    <RatingBar
+        android:id="@+id/rating_normal"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/accent_green"
+        android:rating="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/content_row" />
+
+    <!-- Start Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/button_background_main"
+        android:minWidth="100dp"
+        android:paddingHorizontal="16dp"
+        android:text="START"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

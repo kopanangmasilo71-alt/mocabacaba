@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Sesotho</item>
+    </string-array>
+    <string-array name="language_codes">
+        <item>en</item>
+        <item>st</item>
+    </string-array>
+</resources>

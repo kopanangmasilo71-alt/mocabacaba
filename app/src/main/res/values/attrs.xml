@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RainbowTextView">
+        <attr name="rainbowSpeed" format="integer"/>
+        <attr name="rainbowHorizontal" format="boolean"/>
+    </declare-styleable>
+</resources>

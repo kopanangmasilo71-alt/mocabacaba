@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Modern Palette -->
+    <color name="primary">#016161</color>
+
+    <color name="accent_green">#E101DE96</color>
+    <color name="surface_dark">#1A2C2C</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#CCCCCC</color>
+
+    <!-- Glassmorphism Effects -->
+    <color name="glass_white_10">#1AFFFFFF</color>
+    <color name="glass_white_20">#33FFFFFF</color>
+    <color name="glass_border">#4DFFFFFF</color>
+    <color name="accent_gold">#FFB300</color>
+    <color name="text_secondary">#B0BEC5</color>
+
+    <!-- Colors for MainActivity Design -->
+
+    <!-- Consolidated Colors to Fix All Build Errors -->
+    <color name="primary_dark">#DC00B3A3</color>
+    <color name="secondary">#FFC107</color>
+    <color name="secondary_variant">#FF9800</color>
+    <color name="dialog_background">@color/surface_dark</color>
+    <color name="gray_700">#616161</color>
+    <color name="accent_red">#F44336</color>
+
+    <!-- General Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

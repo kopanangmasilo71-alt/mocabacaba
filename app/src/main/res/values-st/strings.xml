@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morabaraba Collection</string>
+
+    <string name="you_own_white_cows">U na le Dikgomo tse Tshweu</string>
+    <string name="play">Bapala</string>
+
+    <string name="unlock">Notlolla</string>
+    <string name="locked">E notletswe</string>
+    <string name="normal_game">Papadi ya Mehleng</string>
+
+    <string name="exit">Tswa</string>
+    <string name="menu">Lenane</string>
+    <string name="restart">Qala Hape</string>
+    <string name="resume">Tswelapele</string>
+    <string name="pause">Emisa</string>
+
+    <!-- About Us Strings -->
+    <string name="about_title">Mabapi le Morabaraba Collection</string>
+    <string name="about_game_description">Morabaraba Collection ke sethaba-thaba ho lefa la rona la setso la Afrika. Sepheo sa rona ke ho boloka le ho kenya tshebetsong ya dipalo dipapadi tsa mahlale tsa setso tse bapalwang ka makgolo a dilemo ho phatlalla le kontinente. Ho tloha botjheng ba Morabaraba ho ya ho ho lelekisana ha Mmutla le Dintja, re tlisa dintlha tsena tsa bohlokwa matsohong a hao.</string>
+
+    <string name="mission_title">Sepheo sa Rona</string>
+    <string name="mission_body">Ho bopa boitshwaro ba dipalo bo tlotlang metso ya setso ya dipapadi tsa mapolanka tsa Afrika ha re ntse re di tsebisa lefatshe ka bophara ka thekenoloji ya mehleng ya mehala.</string>
+
+    <string name="feature_single_player">Bahanyetsi ba bohlale ba AI</string>
+    <string name="feature_multiplayer">Ho bapala ka Selehae</string>
+    <string name="feature_difficulty">Maemo a fapaneng a Bothata</string>
+    <string name="feature_variations">Mefuta e fapaneng ya Papadi</string>
+    <string name="feature_visuals">Diponahalo tsa mehleng le dipopayi tse boreledi</string>
+
+    <string name="development_team_title">Sehlopha sa Ntshetsopele</string>
+    <string name="development_team">Ke moetsi ya nang le takatso le motho ya ratang setso ya ikemiseditseng ho tlisa setso mehleng ya dipalo. Mosebetsi wa ka o tsepamisitse maikutlo ho nepahala, tshebetso, le ho fana ka boitshwaro bo natefelang dilemo tsohle.</string>
+
+    <string name="credits_title">Liteboho tse Khethehileng</string>
+    <string name="credits_body">Liteboho tse khethehileng ho baahi ba bolokang dipapadi tsena di phela le ho bohle ba hlahlobileng papadi ena ba re thusitseng ho ntlafatsa boitshwaro ba papadi.</string>
+
+    <string name="version_info">Mofuta: 7.3.0 (Stable)</string>
+    <string name="contact_info">Bakeng sa tshehetso kapa dipotso: kopanangmasilo71@gmail.com</string>
+    <string name="legal_info">© 2026 MasiloDev. Ditokelo Tsohle di Bolokilwe.</string>
+    <string name="read_full_policy">Bala Melao ya Lekunutu ka Botlalo</string>
+
+    <!-- Existing Strings -->
+    <string name="_0">0</string>
+    <string name="background">Morao</string>
+    <string name="trophy">Mohope</string>
+    <string name="current_rank">MAEMO A HAJOALE</string>
+    <string name="level_5_caps">BOEMO BA 5</string>
+    <string name="arcade_minigames">Dipapadi tse nyane</string>
+    <string name="back_button">Morao</string>
+
+    <!-- Rabbit Game Messages -->
+    <string name="game_paused">Papadi e emisitse</string>
+    <string name="winner_you">WENA</string>
+    <string name="confirm_restart">Netefatsa ho Qala Hape</string>
+
+    <!-- Ultra Detailed Tutorial Strings -->
+    <string name="tut_intro_title">Tataiso e Phahameng ya Morabaraba Collection</string>
+    <string name="tut_intro_body">Re o amohela tataisong e batsi ka ho fetisisa bakeng sa Morabaraba Collection. Hore na o moqalanyana kapa o setsebi sa mahlale, tataiso ena e tla o thusa ho tseba papadi e nngwe le e nngwe pokellong ya rona. Ithute melao, sibolla mahlale a sephiri, mme o hlole lebaleng!</string>
+    <string name="tut_morabaraba_title">1. Morabaraba (Tshomo ya Dikgomo tse 12)</string>
+    <string name="tut_morabaraba_body">Morabaraba ke papadi ya kgalekgale mme e hloka bohlale. Sebapadi se seng le se seng se qala ka dikarolo tse 12, tse tsejwang e le "dikgomo".\n\n
+    <b>Karolo ya 1: Ho Beha (Ho Beha Dikgomo)</b>\n
+    Lebala le tlhaka. Bapadi ba fapanyetsana ho beha kgomo e le nngwe hukung efe kapa e fe e sa lulang (moo mela e kopanang teng). Sepheo sa hao mona ke ho haha "Mele" ha o ntse o thibela mohanyetsi wa hao ho etsa se tshwanang.\n\n
+    <b>Karolo ya 2: Ntwa (Ho Suta ha Dikgomo)</b>\n
+    Kamora hore dikgomo tsohle tse 24 di beuwe, mokgahlelo wa ho suta o a qala. O ka suta kgomo ho tloha hukung ya yona ya hajoale ho ya hukung efe kapa e fe e <i>haufi</i> e se nang motho e kopantsweng ka mola. Ho beha mahlale ke senotlolo sa ho tshwasa mohanyetsi wa hao.\n\n
+    <b>Karolo ya 3: Ho Fofisa (Mokgahlelo wa ho Itshepa)</b>\n
+    Ha o lahlehelwa ke dikgomo mme o setse ka tse 3 hantle, dikgomo tsa hao di fumana matla a ho "fofa". O ka suta kgomo ho ya hukung <i>efe kapa efe</i> e se nang motho lebaleng, ho sa natswe mela. Sena se etsa hore sebapadi se hlolwang se be kotsi haholo!\n\n
+    <b>Mele le Molao wa ho "Thunya":</b>\n
+    "Mmala" (Mill) ke mola wa dikgomo tse tharo tsa mmala o le mong. Ha o etsa Mmala, o fumana monyetla wa ho "thunya" kgomo e le nngwe ya mohanyetsi wa hao lebaleng. <i>Molao wa Tlhompho:</i> O ke ke wa thunya kgomo eo e leng karolo ya Mmala wa mohanyetsi ntle le haeba dikgomo tsohle tsa bona di le ka hara Mele.\n\n
+    <b>Maemo a Tlholo:</b>\n
+    1. Fokotsa mohanyetsi wa hao hore a sale ka dikgomo tse 2 (ba ke ke ba hlola ba etsa Mmala).\n
+    2. Thibela mohanyetsi wa hao hore a se ke a ba le metsamao e nepahetseng e setseng.\n\n
+    <b>Keletso ya Mahlale:</b> Leka ho haha "Mmala o Kopanyeng" (Double Mill) mme o suta kgomo e le nngwe pele le morao e bopang Mmala o motjha nako le nako!</string>
+    <string name="tut_rabbit_title">2. Mmutla vs. Dintja (Lelekisano e Kgethehileng)</string>
+    <string name="tut_rabbit_body">Ena ke papadi ya maemo a sa lekanang. Sebapadi se seng ke Mmutla o iphileng, mme se seng se laola sehlopha sa Dintja tse lapileng.\n\n
+    <b>Sepheo sa Dintja:</b>\n
+    O laola dintlha tse mmalwa. Sepheo sa hao feela ke ho tshwasetsa Mmutla hore o se ke wa suta. Hopola: Dintja di ka suta feela ho ya pele kapa ka thoko ho ya ka mela—di ke ke tsa kgutlela morao! Le lokela ho sebetsa jwaloka sehlopha ho kwala letlowa.\n\n
+    <b>Sepheo sa Mmutla:</b>\n
+    O lebelo mme o bohlale. O ka suta ho ya pele, morao, kapa ka thoko. Sepheo sa hao ke ho phunyeletsa moleng wa dintja. Hang ha o fihla kamora tsona, di ke ke tsa reteleha ho o tshwasa, mme o a hlola.\n\n
+    <b>Ho Hlola Papadi:</b>\n
+    - <b>Dintja di a Hlola:</b> Haeba Mmutla o teetswe hare ka ho feletseng mme o se na dibaka tse haufi tseo o ka tlolelang ho tsona.\n
+    - <b>Mmutla o a Hlola:</b> Haeba o tshelela ka nane ho lebala kapa o fetas dintja tsohle.\n\n
+    <b>Keletso ya Mahlale:</b> Dintja di lokela ho dula moleng o tight ho qoba ho tlohela "masoba" a hore Mmutla o phunyeletse.</string>
+    <string name="tut_alquerque_title">3. Alquerque (Mohokahanyi wa Dipapadi tsa Drafts)</string>
+    <string name="tut_alquerque_body">Alquerque ke nkhono wa papadi ya mehleng ya Checkers. Ke papadi ya tlhaselo e feletseng le boitelo bo badilweng.       <b>Motsamao:</b>      Dikarolo di behwa kopanong ya mela. O ka suta karolo ho ya hukung efe kapa e fe e haufi e se nang motho ho bapa le mela. Ho fapana le Checkers, o ka suta nqeng efe kapa e fe ho tloha qalong.       <b>Ho Tshwasa (Tlolo):</b>      Ho tshwasa, o lokela ho tlolela hodima karolo ya mohanyetsi ho ya sebakeng se se nang motho se kapele ho y yona. Karolo e tshwasitsweng e a tloswa. <i>Tswelopele ya Tlolo:</i> Haeba o dula mme o ka tlolela karolo e nngwe hang-hang, o <i>lokela</i> ho tswelapele ho tlola ho fihlela ho se ho se na ditshwaso tse ka etswang.       <b>Tlholo:</b>      Sebapadi sa pele sa ho tshwasa dikarolo tsohle tse 12 tsa mohanyetsi wa sona se a hlola. Haeba papadi e fihla boemong moo ho seng motho ya ka sutang, ke droo (draw).       <b>Keletso ya Mahlale:</b> Laola bohare ba lebala. Karolo e bohareng e na le menyetla e mengata ya tlhaselo le tshireletso.</string>
+    <string name="tut_multiplayer_title">Khokahano le Di-setting</string>
+    <string name="tut_multiplayer_body"><b>Papadi ya Selehae:</b> Fetisetsang fono pele le morao kapa le dule le tadimane.\n\n
+    <b>Ditaolo tsa Papadi:</b>\n
+    - <b>Emisa (Pause):</b> Emisa nako mme o patele lebala.\n
+    - <b>Tswelapele (Resume):</b> Kgethela ho kgutlela tshebetsong.\n
+    - <b>Ineele/Tswa:</b> Felisa papadi haeba o iphumana o le maemong a se nang tshepo.</string>
+    <string name="train_your_skills_against_our_smart_ai">Ikwetlise kgahlanong le AI ya rona e bohlale.</string>
+
+    <string name="all_variations">MEFUTA KAOFELA</string>
+    <string name="exit_game">Tswa Papeding</string>
+    <string name="morabaraba_title_caps">MORABARABA</string>
+    <string name="collection_title_caps">COLLECTION</string>
+    <string name="key_features">Dintlha tsa Bohlokwa</string>
+    <string name="close">Kwala</string>
+    <string name="settings">Di-setting</string>
+    <string name="sound_and_music">Melumo le Mmino</string>
+    <string name="sound_effects">Melumo ya Papadi</string>
+    <string name="game_settings">Di-setting tsa Papadi</string>
+    <string name="ai_difficulty">Bothata ba AI</string>
+    <string name="performance">Tshebetso</string>
+    <string name="speed_label">Lebelo: %1$d%%</string>
+    <string name="save">Boloka</string>
+    <string name="reset_to_default">Khutlisetsa qalong</string>
+    <string name="scoreboard_caps">SCOREBOARD</string>
+    <string name="player_one">Sebapadi sa Pele</string>
+    <string name="current_level">Boemo ba Hajoale</string>
+    <string name="robotic_ai">Robotic AI</string>
+    <string name="rabbit">Mmutla</string>
+    <string name="rabbit_stacked">Mmutla e \'Meli</string>
+    <string name="play_again">Bapala Hape</string>
+    <string name="reset">Seta Hape</string>
+    <string name="language">Puo</string>
+
+    <!-- GameStart Info Dialogs -->
+    <string name="title_spider">Spider</string>
+    <string name="desc_spider">Papadi ya dikarete ya kgalekgale ya pelotelele le mahlale. Lokisa dikarete ka ho latellana ho tloha ho e kgolo ho ya ho e nyane ho hlakola lebala.</string>
+    <string name="title_rabbit_hunt">Mmutla o Tsomang</string>
+    <string name="desc_rabbit_hunt">Leka makgethe a hao le lebelo! Tshwasa mebutla e mengata kamoo o ka kgonang pele nako e fela.</string>
+    <string name="title_rabbit_stacked">Mmutla o Mokotaba</string>
+    <string name="desc_rabbit_stacked">Mofuta o ekeditsweng wa papadi ya Mmutla o Tsomang o nang le mabala a mararo a mokotaba.</string>
+    <string name="title_rabbit_pvp">Mmutla PvP</string>
+    <string name="desc_rabbit_pvp">Bapala Mmutla o Tsomang kgahlanong le motswalle fonong e le nngwe.</string>
+    <string name="title_square_logic">Square Logic</string>
+    <string name="desc_square_logic">Mofuta o motjha wa papadi o nang le disekwere tse tharo tse bohareng bo le bong le dikhutlo tse kopantsweng.</string>
+    <string name="title_alquerque">Alquerque</string>
+    <string name="desc_alquerque">Papadi ya mapolanka ya kgalekgale ya mahlale. Tshwasa dikarolo tsohle tsa mohanyetsi wa hao ho hlola.</string>
+
+    <!-- Welcome Screen Info Dialogs -->
+    <string name="title_robot_match">Papadi ya Robot</string>
+    <string name="desc_robot_match">Ikwetlise kgahlanong le AI. Ho loketse ho itlwaetsa mahlale a hao pele o qholotsa bapadi ba nnete.</string>
+    <string name="title_local_pvp">Bapala ka Selehae</string>
+    <string name="desc_local_pvp">Bapala kgahlanong le motswalle fonong ena. Boitshwaro ba mehleng ba bapadi ba bangata ntle le inthanete.</string>
+    <string name="title_malula">Malula</string>
+    <string name="desc_malula">Papadi ya setso ya mahlale. Hlalefa mohanyetsi wa hao ntweng ena ya bohlale.</string>
+
+    <!-- Game Card Labels -->
+    <string name="label_play">BAPALA</string>
+
+    <!-- Menu Item Labels -->
+
+    <!-- Level Adapter Strings -->
+    <string name="level_format">Boemo %d</string>
+    <string name="target_xp_format">Sepheo: %d XP</string>
+    <string name="current_caps">HAJOALE</string>
+    <string name="continue_text">TSWELAPELE</string>
+    <string name="points_format">Dintlha tse %d</string>
+    <string name="chase">LELEKISA</string>
+    <string name="pvp">PvP</string>
+    <string name="x2">X2</string>
+</resources>

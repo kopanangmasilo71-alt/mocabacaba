@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+    <!-- Single Square -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="11"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,50 H250 V250 H50 Z" />
+
+    <!-- Four Lines connecting midpoints -->
+    <!-- Vertical line -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="11"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M150,50 V250" />
+    <!-- Horizontal line -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="11"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,150 H250" />
+    <!-- Diagonal top-left to bottom-right -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="11"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,50 L250,250" />
+    <!-- Diagonal top-right to bottom-left -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="11"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M250,50 L50,250" />
+
+</vector>

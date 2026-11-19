@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer square -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M5,5 L95,5 L95,95 L5,95 Z"/>
+
+    <!-- Vertical middle line -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="4"
+        android:pathData="M50,5 L50,95"/>
+
+    <!-- Horizontal middle line -->
+    <path
+        android:strokeColor="#FF9800"
+        android:strokeWidth="4"
+        android:pathData="M5,50 L95,50"/>
+
+    <!-- Diagonals top-left square -->
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M5,5 L50,50"/>
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M50,5 L5,50"/>
+
+    <!-- Diagonals top-right square -->
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M50,5 L95,50"/>
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M95,5 L50,50"/>
+
+    <!-- Diagonals bottom-left square -->
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M5,50 L50,95"/>
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M50,50 L5,95"/>
+
+    <!-- Diagonals bottom-right square -->
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M50,50 L95,95"/>
+    <path android:strokeColor="#FF9800" android:strokeWidth="4"
+        android:pathData="M95,50 L50,95"/>
+
+</vector>

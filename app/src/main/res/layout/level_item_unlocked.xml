@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/draw"
+    android:paddingTop="14dp"
+    android:paddingBottom="5dp"
+    android:paddingHorizontal="8dp"
+    android:layout_margin="4dp"
+    android:minWidth="140dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <com.masilo.morabarabacollection.RainbowTextView
+            android:id="@+id/level_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Level 1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMaxTextSize="18sp"
+            app:autoSizeMinTextSize="12sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#200df2f2"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="4dp">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/baseline_lock_open_24"/>
+
+            <com.masilo.morabarabacollection.RainbowTextView
+                android:id="@+id/level_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNLOCKED"
+                android:textColor="@color/primary"
+                android:textSize="10sp"
+                android:layout_marginStart="2dp"
+                android:maxLines="1"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMaxTextSize="10sp"
+                app:autoSizeMinTextSize="7sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/baseline_stars_24"/>
+
+        <com.masilo.morabarabacollection.RainbowTextView
+            android:id="@+id/level_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1200 Points"
+            android:textColor="#A0FFFFFF"
+            android:layout_marginStart="4dp"
+            android:maxLines="1"
+            android:textSize="13sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMaxTextSize="13sp"
+            app:autoSizeMinTextSize="10sp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/level_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:progress="75"
+        android:progressDrawable="@drawable/bg_progress_bar"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:text="PLAY"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_glass_card_mini"
+        app:drawableStartCompat="@drawable/resume_me"
+        android:textSize="12sp"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="12sp"
+        app:autoSizeMinTextSize="8sp"/>
+
+</LinearLayout>
